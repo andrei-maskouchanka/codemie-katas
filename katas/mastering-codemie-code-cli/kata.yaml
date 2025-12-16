@@ -75,9 +75,8 @@ status: "published"
 
 # Authorship and maintenance (optional but recommended)
 author:
-  name: "Vadym Vlasenko"
-  email: "vadym_vlasenko@epam.com"
-  github: "vvlasenko"
+  name: "CodeMie Team"
+  email: "support@codemie.ai"
 
 # Metadata (optional)
 metadata:
