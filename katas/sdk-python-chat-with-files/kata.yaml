@@ -1,5 +1,5 @@
 id: "sdk-python-chat-with-files"
-version: "1.0.0"
+version: "1.0.1"
 title: "SDK: Chat with Files: Upload and Analyze Documents with AI"
 description: >
   Learn how to enhance your AI assistant with document analysis capabilities!
@@ -10,13 +10,13 @@ level: "beginner"
 duration_minutes: 25
 tags:
   - "ai-agents"
-  - "llm-integration"
+  - "codemie-sdk"
   - "code-generation"
 roles:
   - "developer"
   - "ai-engineer"
 status: "published"
-image_url: "https://raw.githubusercontent.com/epam-gen-ai-run/ai-run-install/refs/heads/main/docs/assets/ai/ai-run-codemie-logo-dark_bg.svg"
+image_url: "https://epam-gen-ai-run.github.io/ai-run-install/docs/assets/ai/ai-run-codemie-logo-dark_bg.svg"
 links:
   - title: "CodeMie Python SDK - PyPI"
     url: "https://pypi.org/project/codemie-sdk-python/"
