@@ -444,46 +444,6 @@ Visit your ADO wiki and check if the new page appears at `/CodeMie-Kata-Demo`.
 
 ---
 
-## 🎯 Challenge 9: Modify an Existing Wiki Page
-
-**Goal:** Update the wiki page you just created with additional content.
-
-### Modify the Page
-
-```python
-# Modify the existing page
-chat_with_assistant(
-    ado_wiki_assistant_name,
-    """Modify the wiki page at path '/CodeMie-Kata-Demo'.
-
-Add a new section at the end:
-
-## Achievements
-- ✅ Created ADO integration
-- ✅ Built wiki datasource
-- ✅ Deployed AI assistant
-- ✅ Automated wiki management
-
-Last updated: [Current Date]
-"""
-)
-```
-
-### Verify Changes
-
-Refresh the wiki page in Azure DevOps to see the updates.
-
-**✅ Success Criteria:**
-- [ ] Assistant confirms page modification
-- [ ] `modify_wiki_page` tool triggered
-- [ ] Changes visible in Azure DevOps
-- [ ] Original content preserved with additions
-
-**🏆 Bonus:**
-- Try renaming the page using the assistant
-
----
-
 ## 🎓 Kata Complete!
 
 ### What You've Accomplished
@@ -495,7 +455,6 @@ Congratulations! You've successfully built an Azure DevOps Wiki assistant with t
 ✅ **AI Assistant** - Built an assistant with wiki management capabilities
 ✅ **Wiki Search** - Retrieved information from indexed wiki content
 ✅ **Page Creation** - Automated new page creation with AI-generated content
-✅ **Page Modification** - Updated existing documentation programmatically
 
 ### Key Concepts Learned
 
@@ -566,22 +525,6 @@ if __name__ == "__main__":
     - Integrate with your workflows
     """
     )
-
-    # 7. Modify an existing wiki page
-    chat_with_assistant(
-        ado_wiki_assistant_name,
-        """Modify the wiki page at path '/CodeMie-Kata-Demo'.
-
-    Add a new section at the end:
-
-    ## Achievements
-    - ✅ Created ADO integration
-    - ✅ Built wiki datasource
-    - ✅ Deployed AI assistant
-    - ✅ Automated wiki management
-
-    Last updated: [Current Date]
-    """)
 ```
 
 Great work! You're now ready to build production-ready ADO assistants with CodeMie! 🚀

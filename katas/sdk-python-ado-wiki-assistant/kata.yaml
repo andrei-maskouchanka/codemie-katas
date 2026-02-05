@@ -1,5 +1,5 @@
 id: "sdk-python-ado-wiki-assistant"
-version: "1.0.0"
+version: "1.0.1"
 title: "SDK: Build an Azure DevOps Wiki Assistant with CodeMie SDK"
 description: >
   Learn how to create an AI assistant that manages Azure DevOps Wiki using the CodeMie Python SDK.
